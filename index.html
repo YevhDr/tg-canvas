@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TG Map</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,500i,700,700i|Montserrat:400,400i,500,500i,600,600i|Nunito:400,400i,600,600i,700,700i|Oswald:400,500,600|Play|Ubuntu:400,500,500i,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+    <style>
+
+   p {
+       width: 50%;
+       margin: auto;
+   }
+
+    .svg-inline--fa.fa-w-14 {
+        width: 0.6em;
+    }
+
+    body {
+        margin:0;
+        padding:0;
+        /*font-family: 'Alegreya Sans SC', sans-serif;*/
+        /*font-family: 'Montserrat', sans-serif;*/
+        /*font-family: 'Nunito', sans-serif;*/
+        /*font-family: 'Play', sans-serif;*/
+        /*font-family: 'Ubuntu', sans-serif;*/
+        /*font-family: 'Oswald', sans-serif;*/
+        /*background-color: black;*/
+    }
+
+    svg {
+        overflow: visible;
+    }
+
+        canvas {
+            margin: 50px auto;
+        }
+
+
+</style>
+
+<body>
+
+<div id="chart"></div>
+
+    <script src="main.js"></script>
+    <script src="drawScatter.js" async></script>
+
+    <!-- фігово, кожен канвас зумиться окремо-->
+    <!--<script src="canvasMain.js"></script>-->
+    <!--<script src="canvasScatter.js"></script>-->
+</body>
+
+</html>
